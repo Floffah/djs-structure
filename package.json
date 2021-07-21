@@ -1,0 +1,55 @@
+{
+    "name": "djs-structure",
+    "version": "0.0.1",
+    "description": "Advanced structure, algorithms, and tools for Discord.JS (v13 and up)",
+    "main": "dist/index.js",
+    "module": "dist/index.mjs",
+    "types": "dist/index.d.ts",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Floffah/djs-structure.git"
+    },
+    "keywords": [
+        "discord",
+        "js",
+        "discord.js",
+        "structure",
+        "algorithms",
+        "tools",
+        "bot"
+    ],
+    "files": [
+        "dist", "README.md", "LICENSE"
+    ],
+    "directories": {
+        "lib": "dist"
+    },
+    "engines": {
+        "node": ">=14.0.0"
+    },
+    "author": "Floffah",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/Floffah/djs-structure/issues"
+    },
+    "homepage": "https://github.com/Floffah/djs-structure#readme",
+    "devDependencies": {
+        "@types/node": "^16.4.0",
+        "@typescript-eslint/eslint-plugin": "^4.28.4",
+        "@typescript-eslint/parser": "^4.28.4",
+        "discord-api-types": "^0.20.2",
+        "discord.js": "https://github.com/discordjs/discord.js",
+        "eslint": "^7.31.0",
+        "eslint-config-prettier": "^8.3.0",
+        "prettier": "^2.3.2",
+        "tsup": "^4.12.5",
+        "typescript": "^4.3.5"
+    },
+    "peerDependencies": {
+        "discord-api-types": "^0.20.2",
+        "discord.js": "^13.0.0-dev"
+    }
+}
